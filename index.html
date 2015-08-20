@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Little Spark</title>
+    <!--Angular Library-->
+    <script src="assets/libs/angular/angular.min.js"></script>
+    <script src="assets/libs/angular/angular-route.min.js"></script>
+
+    <!--Application-->
+    <script src="app.module.js"></script>
+    <script src="app.routes.js"></script>
+    <script src="indexController.js"></script>
+    <script src="components/home/homeController.js"></script>
+</head>
+
+<body ng-app="application" ng-controller="index">
+    <h1>Angular Project Structure </h1>
+    <hr />
+    <ng-view></ng-view>
+</body>
+</html>
